@@ -1,0 +1,161 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currently Viewing</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link href="css/simple-slider.css" rel="stylesheet" type="text/css" />
+    <link href="css/simple-slider-volume.css" rel="stylesheet" type="text/css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+    <div class="nav">
+      <div class="row">
+        <div class="small-4 columns backBut">
+          <a href="index.html"><img class="back_button" src="img/back.png"/></a>
+          &nbsp; Now playing - Living Room
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="now_playing">
+      <div class="row">
+        <div class="small-4 columns playing_img">
+          <a href="details.html"><img src="img/hmym.jpg"></a>
+        </div>
+
+        <div class="small-5 columns playing_details">
+          <p><strong>Now Playing</strong></br>
+            How I Met Your Mother</br>
+            Channel 500</p>
+
+        </div>
+
+        <div class="small-3 columns nextDetails">
+          <p><strong>Next</strong></br>
+            Breaking Bad</br>
+            Channel 514</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class='recommended'>
+      <div class="row">
+        <div class="small-12 columns">Smart Recommendations</div>
+        
+      </div>
+      <a href="details.html">
+        <div class="row">
+          <div class="small-3 columns showIcon">
+            <img src="img/walking-dead.jpeg"/>
+          </div>
+          <div class="small-7 columns">
+            <p><em>Walking Dead</em></br>
+            Channel 700</br>
+            On in 35 minutes</p>
+          </div>
+          <div class="small-2 columns nextArrow">
+            <img src="img/next_arrow.png"/>
+          </div>
+        </div>
+      </a>
+
+      <a href="details.html"><div class="row">
+        <div class="small-3 columns showIcon">
+          <img src="img/got.jpg"/>
+        </div>
+        <div class="small-7 columns">
+          <p><em>Game of Thrones</em></br>
+          HBO GO account</br>
+          Instant Play</p>
+        </div>
+        <div class="small-2 columns nextArrow">
+          <img src="img/next_arrow.png"/>
+        </div>
+      </div></a>
+
+      <a href="details.html"><div class="row">
+        <div class="small-3 columns showIcon">
+          <img src="img/sex.jpg"/>
+        </div>
+        <div class="small-7 columns">
+          <p><em>Sex and the City</em></br>
+          Channel 631</br>
+          On in 1 hour</p>
+        </div>
+        <div class="small-2 columns nextArrow">
+          <img src="img/next_arrow.png"/>
+        </div>
+      </div></a>
+
+    </div>
+
+     <div class="footer">
+      <div class="row">
+        <div class="small-6 columns vol_wrapper">
+          <a href="#volume-popup" class="open-popup-link"><img class="volume" src="img/audio.png"/></a>
+        </div>
+        <div class="small-6 columns light_wrapper">
+          <a href="#light-popup" class="open-popup-link"><img class="light" src="img/light.png"/></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- volume popup -->
+    <div id="volume-popup" class="white-popup mfp-hide">
+      <div class="row">
+        <div class="small-3 columns">
+          <img src="img/volume.png"/>
+        </div>
+
+        <div class="small-9 columns">
+          <div class="row"><p>&nbsp;Master <input class="vol1" type="text" data-slider="true" value="0.8" data-slider-theme="volume" display:"block"></p></div>
+          <div class="row"><p>&nbsp;Front <input class="vol1" type="text" data-slider="true" value="0.90" data-slider-theme="volume" display:"block"></p></div>
+          <div class="row"><p>&nbsp;Back <input class="vol1" type="text" data-slider="true" value="0.70" data-slider-theme="volume" display:"block"></p></div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- lighting popup -->
+    <div id="light-popup" class="white-popup mfp-hide">
+      <div class="row">
+        <div class="small-3 columns">
+          <img src="img/lighting.png"/>
+        </div>
+
+        <div class="small-9 columns">
+          <div class="row"><p>&nbsp;Master <input class="vol1" type="text" data-slider="true" value="0.3" data-slider-theme="volume" display:"block"></p></div>
+          <div class="row"><p>&nbsp;Track Lighting <input class="vol1" type="text" data-slider="true" value="0.0" data-slider-theme="volume" display:"block"></p></div>
+          <div class="row"><p>&nbsp;Wall sconces <input class="vol1" type="text" data-slider="true" value="0.4" data-slider-theme="volume" display:"block"></p></div>
+
+        </div>
+
+
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/simple-slider.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rel Home</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link href="css/simple-slider.css" rel="stylesheet" type="text/css" />
+    <link href="css/simple-slider-volume.css" rel="stylesheet" type="text/css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="welcome">
+      <div class="row">
+        <div class="small-12 columns">
+
+          <h1>Welcome, User</h1>
+          <img class="user" src="img/user.png"/>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="itemSelect">
+      <div class="row">
+        <div class="small-4 columns">
+          <a href="tv.html"><img class="mediaSymbol" src="img/tv_symbol.png"/></a>
+        </div>
+        <div class="small-4 columns">
+          <a href="tv.html"><img class="mediaSymbol" src="img/film.png"/></a>
+        </div>
+        <div class="small-4 columns">
+          <a href="tv.html"><img class="mediaSymbol" src="img/music.png"/></a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="small-6 columns vol_wrapper">
+          <a href="#volume-popup" class="open-popup-link"><img class="volume" src="img/audio.png"/></a>
+        </div>
+        <div class="small-6 columns light_wrapper">
+          <a href="#light-popup" class="open-popup-link"><img class="light" src="img/light.png"/></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- volume popup -->
+    <div id="volume-popup" class="white-popup mfp-hide">
+      <div class="row">
+        <div class="small-3 columns">
+          <img src="img/volume.png"/>
+        </div>
+
+        <div class="small-9 columns">
+          <div class="row"><p>&nbsp;Master <input class="vol1" type="text" data-slider="true" value="0.8" data-slider-theme="volume" display:"block"></p></div>
+          <div class="row"><p>&nbsp;Front <input class="vol1" type="text" data-slider="true" value="0.90" data-slider-theme="volume" display:"block"></p></div>
+          <div class="row"><p>&nbsp;Back <input class="vol1" type="text" data-slider="true" value="0.70" data-slider-theme="volume" display:"block"></p></div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- lighting popup -->
+    <div id="light-popup" class="white-popup mfp-hide">
+      <div class="row">
+        <div class="small-3 columns">
+          <img src="img/lighting.png"/>
+        </div>
+
+        <div class="small-9 columns">
+          <div class="row"><p>&nbsp;Master <input class="vol1" type="text" data-slider="true" value="0.3" data-slider-theme="volume" display:"block"></p></div>
+          <div class="row"><p>&nbsp;Track Lighting <input class="vol1" type="text" data-slider="true" value="0.0" data-slider-theme="volume" display:"block"></p></div>
+          <div class="row"><p>&nbsp;Wall sconces <input class="vol1" type="text" data-slider="true" value="0.4" data-slider-theme="volume" display:"block"></p></div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+    
+    
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/simple-slider.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
